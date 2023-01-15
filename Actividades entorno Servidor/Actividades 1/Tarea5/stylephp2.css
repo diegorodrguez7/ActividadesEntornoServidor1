@@ -1,0 +1,57 @@
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: arial;
+    background: linear-gradient(90deg,
+	#243939 0%, 
+	#5CAAAB 64%, 
+	#91edee 100%);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #243939;
+}
+
+.volver {
+    margin: 20px;
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.estiloTabla {
+    font-weight: bold;
+    font-size: large;
+    color: #243939;
+}
+
+.contenedor {
+    margin-top: 2%;
+    padding: 30px;
+    text-align: center;
+    line-height: 1.5em;
+    background-color: #ccc;
+    box-shadow: #91edee 0.5px 1px 5px 5px;
+    border-radius: 10px;
+    flex-basis: 35%;
+    margin-bottom: 5%;
+}
+
+.flexboxCajasUnion {
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
